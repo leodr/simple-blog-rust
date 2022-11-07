@@ -1,0 +1,12 @@
+[package]
+name = "simple-blog"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+comrak = "0.14.0"
+handlebars = { version = "4.3.4", features = ["dir_source"] }
+serde_json = "1.0.85"
+slug = "0.1.4"
